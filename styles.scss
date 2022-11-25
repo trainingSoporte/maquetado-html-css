@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template: repeat(3,1fr) / repeat(2,1fr);
+    grid-template-areas: "header header"
+                         "main aside"
+                         "footer footer" ;
+
+    header{
+        background-color: antiquewhite;
+        grid-area: header;
+    }
+    main{
+        background-color: aquamarine;
+        grid-area: main;
+    }
+    aside{
+        background-color: bisque;
+        grid-area: aside;
+    }
+    footer{
+        background-color: burlywood;
+        grid-area: footer;
+    }
+}

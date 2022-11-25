@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main .container {
+  background-color: aquamarine;
+  display: grid;
+  grid-template: repeat(2, 100px)/repeat(3, 100px);
+  gap: 5px;
+}
+main .container .box {
+  background-color: yellowgreen;
+}/*# sourceMappingURL=styles_grid.css.map */

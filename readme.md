@@ -61,7 +61,7 @@ code .
 En la terminal visualiza a la derecha el nombre de la rama:
 ```
 Por Ejemplo:
-(flex)
+(grid)
 ```
 
 Cambia de proyecto con el cambio de rama:
